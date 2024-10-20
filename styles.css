@@ -1,0 +1,63 @@
+/* Styling Header */
+header {
+    background-color: #800404; /* Merah */
+    color: white; /* Teks Putih */
+    text-align: center; /* Teks di tengah */
+    padding: 20px; /* Spasi di dalam header */
+}
+
+/* Styling Footer */
+footer {
+    background-color: #333; /* Latar belakang hitam */
+    color: white; /* Teks Putih */
+    text-align: center; /* Teks di tengah */
+    padding: 10px; /* Spasi di dalam footer */
+    margin-top: 30px; /* Jarak dari konten */
+}
+
+/* Sidebar Styling */
+.sidebar {
+    background-color: #d8b506; /* Latar belakang abu-abu muda */
+    padding: 15px;
+}
+
+/* Sticky header untuk tabel */
+thead th {
+    position: sticky;
+    top: 0;
+    background-color: #d8b506; /* Latar belakang biru */
+    color: white; /* Teks putih */
+    z-index: 1; /* Membuat header tetap di atas */
+}
+
+/* Warna berbeda untuk baris tabel genap */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Warna abu-abu muda untuk baris genap */
+}
+
+/* Efek hover pada baris tabel */
+tr:hover {
+    background-color: #ddd; /* Latar belakang lebih gelap saat di hover */
+}
+
+/* Styling Form */
+.form-control {
+    margin-bottom: 1rem; /* Jarak antara elemen form */
+}
+
+/* Styling Tombol */
+.btn-primary {
+    background-color: #007bff; /* Warna tombol biru */
+    border: none; /* Hapus border default */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Warna biru lebih gelap saat di hover */
+}
+
+/* Styling untuk responsivitas grid */
+@media (max-width: 768px) {
+    .sidebar {
+        margin-bottom: 20px; /* Tambah jarak bawah pada layar kecil */
+    }
+}
